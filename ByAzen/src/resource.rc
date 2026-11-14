@@ -1,0 +1,30 @@
+#include <windows.h>
+
+101 ICON "byazen.ico"
+102 RCDATA "byazen_ambient_portrait.png"
+1 RT_MANIFEST "byazen.manifest"
+
+1 VERSIONINFO
+FILEVERSION 3,6,0,0
+PRODUCTVERSION 3,6,0,0
+FILEOS VOS_NT_WINDOWS32
+FILETYPE VFT_APP
+BEGIN
+  BLOCK "StringFileInfo"
+  BEGIN
+    BLOCK "040904B0"
+    BEGIN
+      VALUE "CompanyName", "ByAzen"
+      VALUE "FileDescription", "ByAzen — Roblox Blade Ball Overlay"
+      VALUE "FileVersion", "3.6.0.0"
+      VALUE "InternalName", "ByAzen"
+      VALUE "OriginalFilename", "ByAzen.exe"
+      VALUE "ProductName", "ByAzen Overlay"
+      VALUE "ProductVersion", "3.6.0.0"
+    END
+  END
+  BLOCK "VarFileInfo"
+  BEGIN
+    VALUE "Translation", 0x0409, 1200
+  END
+END
